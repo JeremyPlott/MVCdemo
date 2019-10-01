@@ -14,7 +14,7 @@ namespace MVCdemo.Models
         {
         }
 
-        public DbSet<MVCdemo.Models.Vendor> Vendor { get; set; }
+        public DbSet<MVCdemo.Models.Vendor> Vendor { get; set; } // can change white vendor name here, then hover and use change name to fix other occurrences
 
         public DbSet<MVCdemo.Models.Product> Product { get; set; }
     }

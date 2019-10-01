@@ -13,6 +13,8 @@ using Microsoft.Extensions.Logging;
 // right click to add controller
 // generate controllers + db context
 
+// check & alter connection string in appsettings.json
+
 
 
 namespace MVCdemo {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -27,6 +28,9 @@ namespace MVCdemo.Models {
 
         [DisplayFormat(DataFormatString = "{0:C2}")]
         public decimal Price { get; set; }
+
+        [ForeignKey]
+        public Vendor VendorId { get; set; }
 
     }
 }
